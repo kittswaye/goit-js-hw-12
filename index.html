@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/goit-js-hw-11/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/goit-js-hw-12/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
     
@@ -15,10 +15,10 @@
     
     
     
-    <script type="module" crossorigin src="/goit-js-hw-11/commonHelpers.js"></script>
-    <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-0fc460d7.js">
-    <link rel="stylesheet" href="/goit-js-hw-11/assets/vendor-4b066c51.css">
-    <link rel="stylesheet" href="/goit-js-hw-11/assets/index-15dc093d.css">
+    <script type="module" crossorigin src="/goit-js-hw-12/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-b11e2a50.js">
+    <link rel="stylesheet" href="/goit-js-hw-12/assets/vendor-4b066c51.css">
+    <link rel="stylesheet" href="/goit-js-hw-12/assets/index-5f51afde.css">
   </head>
   <body>
     <div class="main-container">
@@ -27,11 +27,14 @@
         <input type="text" id="pixabay" placeholder="Search images..." />
         <button type="submit">Search</button>
       </form>
+      <ul class="gallery"></ul>
       <div id="loading">
         <span class="loader"></span>
         <span>Loading images, please wait...</span>
       </div>
-      <ul class="gallery"></ul>
+      <div class="loadmore">
+        <button type="button" id="loadmore">Load more</button>
+      </div>
     </div>
   </body>
 </html>
