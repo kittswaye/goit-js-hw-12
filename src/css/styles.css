@@ -132,3 +132,13 @@ button:hover {
     transform: rotate(360deg);
   }
 }
+
+#loadmore {
+  display: none;
+}
+
+.loadmore {
+  width: 140px;
+  margin: 0 auto;
+  position: relative;
+}
