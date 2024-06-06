@@ -1,0 +1,134 @@
+.main-container {
+  text-align: center;
+}
+
+#pixabay {
+  color: #808080;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  background: #FFF;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 8px 180px 8px 16px;
+}
+
+#pixabay:hover {
+  border: 1px solid #000;
+}
+
+#pixabay:focus {
+  border: 1px solid #4E75FF;
+}
+
+button {
+  border-radius: 8px;
+  background: #4E75FF;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  border: none;
+  padding: 8px 16px;
+}
+
+button:hover {
+  background: #6C8CFF;
+}
+
+/* Gallery */
+
+.gallery {
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+}
+
+.gallery-image {
+  border: 1px solid #808080;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery-item img {
+  width: 360px;
+  height: 200px;
+}
+
+.gallery-div-up {
+  position: relative;
+}
+
+.gallery-likes {
+  position: absolute;
+  margin-top: -42px;
+  width: 362px;
+  list-style: none;
+}
+
+.gallery-likes ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  background-color: #FFF;
+  border: 1px solid #808080;
+  border-top: none;
+  color: #2E2F42;
+  text-align: center;
+  padding-top: 6px;
+
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.48px;
+}
+
+.counter {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+}
+
+#loading {
+  margin-top: 32px;
+  color: #2E2F42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  display: none;
+}
+
+.loader {
+  width: 28px;
+  height: 28px;
+  border: 5px solid #FFF;
+  border-bottom-color: #FF3D00;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
